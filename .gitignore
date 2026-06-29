@@ -1,0 +1,32 @@
+# Node
+frontend/node_modules
+frontend/dist
+frontend/.vite
+
+# Rails
+backend/log/*
+backend/tmp/*
+backend/storage/*
+backend/.env
+
+# Databases
+backend/db/*.sqlite3
+backend/db/*.sqlite3-*
+
+# Credentials
+backend/config/master.key
+
+# Bundler
+backend/vendor/bundle
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode
+.idea
+
+# Environment
+.env
+.env.*
